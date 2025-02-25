@@ -25,8 +25,8 @@ if (numero_diez == string_diez) {
     console.log('Las variables no tienen el mismo valor')
 };
 
-console.log('El valor de la variable numero_uno es: ' + numero_diez.valueOf() + ', pero el tipo es: ' + typeof(numero_diez));
-console.log('El valor de la variable string_uno es: ' + string_diez.valueOf() + ', pero el tipo es: ' + typeof(string_diez));
+console.log('El valor de la variable numero_diez es: ' + numero_diez.valueOf() + ', pero el tipo es: ' + typeof(numero_diez));
+console.log('El valor de la variable string_diez es: ' + string_diez.valueOf() + ', pero el tipo es: ' + typeof(string_diez));
 
 if (numero_treinta == string_treinta) {
     console.log('Las variables tienen el mismo valor pero no el mismo tipo');
@@ -34,5 +34,5 @@ if (numero_treinta == string_treinta) {
     console.log('Las variables no tienen el mismo valor')
 };
 
-console.log('El valor de la variable numero_uno es: ' + numero_treinta.valueOf() + ', pero el tipo es: ' + typeof(numero_treinta));
-console.log('El valor de la variable string_uno es: ' + string_treinta.valueOf() + ', pero el tipo es: ' + typeof(string_treinta));
+console.log('El valor de la variable numero_treinta es: ' + numero_treinta.valueOf() + ', pero el tipo es: ' + typeof(numero_treinta));
+console.log('El valor de la variable string_treinta es: ' + string_treinta.valueOf() + ', pero el tipo es: ' + typeof(string_treinta));
