@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="questions" id="form">
+        <h1>Registro</h1>
+        <input type="text" id="name" pattern="[a-z A-Z]*" placeholder="Infresa tu nombre">
+        <br>
+        <input type="text" id="lastname" pattern="[a-z A-Z]*" placeholder="Infresa tu apellido">
+        <br>
+        <input type="number" id="age" min="0" max="99" placeholder="Edad">
+        <br>
+        <input type="text" id="language" pattern="[a-z A-Z]*" placeholder="Lenguaje de programacion que estas aprendiendo">
+        <br>
+        <button onclick="savename()">Guardar</button>
+        <br>
+        <button onclick="reset()">Otro Usuario</button>
+        <br>
+    </section>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

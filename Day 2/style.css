@@ -1,0 +1,47 @@
+input:invalid {
+    border: 2px solid hsl(0, 100%, 70%);
+    background-color: hsl(0, 80%, 75%);
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    5%,
+    45% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    10%,
+    40% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    15%,
+    25%,
+    35% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    20%,
+    30% {
+      transform: translate3d(4px, 0, 0);
+    }
+}
+
+input {
+    outline: none;
+    width: 350px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+#age {
+    width: 100px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
