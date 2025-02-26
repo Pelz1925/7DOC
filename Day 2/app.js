@@ -16,19 +16,21 @@ function savename() {
     let create_parragraph = document.createElement('p');
     let insert_parragraph = document.getElementById('form');
 
-    create_parragraph.innerHTML = message;
+    //     create_parragraph.innerHTML = message;
 
-    insert_parragraph.appendChild(create_parragraph);
+    //     insert_parragraph.appendChild(create_parragraph);
 
-    document.getElementById('name').disabled=true;
-    document.getElementById('lastname').disabled=true;
-    document.getElementById('age').disabled=true;
-    document.getElementById('language').disabled=true;
+    //     document.getElementById('name').disabled=true;
+    //     document.getElementById('lastname').disabled=true;
+    //     document.getElementById('age').disabled=true;
+    //     document.getElementById('language').disabled=true;
+
+    alert(message);
 }
 
-function reset() {
-    document.getElementById('name').disabled=false;
-    document.getElementById('lastname').disabled=false;
-    document.getElementById('age').disabled=false;
-    document.getElementById('language').disabled=false;
-}
+// function reset() {
+//     document.getElementById('name').disabled=false;
+//     document.getElementById('lastname').disabled=false;
+//     document.getElementById('age').disabled=false;
+//     document.getElementById('language').disabled=false;
+// }
