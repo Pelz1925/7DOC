@@ -1,3 +1,3 @@
-Reto de 7 dias de codigo, practicando logica de programación en JavaScript, como parte del desarrollo del programa ONE de Alura y Oracle.
+Reto de 7 días de código, practicando lógica de programación en JavaScript, como parte del desarrollo del programa ONE de Alura y Oracle.
 
-Habra una carpeta por dia y sus respectivas instrucciones de los retos asignados dentro de la misma.
+Habrá una carpeta por día y sus respectivas instrucciones de los retos asignados dentro de la misma.
