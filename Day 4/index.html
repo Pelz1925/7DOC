@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="section">
+
+        <h1>Numero Secreto</h1>
+
+        <p>Estoy pensando en un número entre 1 y 10. <br>Tienes 3 intentos para adivinar!</p>
+
+        <section class="input-section">
+            <input type="number" id="numero" placeholder="Digite su número" pattern="[1-10]" min="1" max="10">
+            <button id="check" onclick="verificar()">Verificar</button>
+            <button id="again" onclick="reiniciar()" disabled>Nuevo Juego</button>
+        </section>
+        
+        <p id="message"></p>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
