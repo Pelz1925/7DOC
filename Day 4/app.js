@@ -3,8 +3,6 @@ let numeroRandom = Math.floor(Math.random() * 10) + 1;
 let numeroIntentos = 0;
 let message = document.getElementById('message');
 
-console.log(numeroRandom);
-console.log(numeroIntentos);
 
 // Functions
 
@@ -14,8 +12,6 @@ function verificar() {
     let clear = document.getElementById('numero').value = '';
 
     numeroIntentos++;
-
-    console.log(numero);
 
     clear;
 
@@ -43,6 +39,4 @@ function reiniciar() {
     document.getElementById('numero').disabled = false;
     document.getElementById('check').disabled = false;
     document.getElementById('again').disabled = true;
-    console.log(numeroRandom);
-    console.log(numeroIntentos);
 }
