@@ -16,20 +16,22 @@ function verificar() {
     clear;
 
     if (numero == numeroRandom) {
-        message.innerHTML = `¡Felicidades! Has adivinado el número en ${numeroIntentos} intentos`;
+        message.innerHTML = `¡Felicidades! Has adivinado, el número era ${numeroRandom} en ${numeroIntentos} intentos`;
+        document.getElementById('numero').disabled = true;
+        document.getElementById('again').disabled = false;
+        document.getElementById('check').disabled = true;  
     } else if (numero < numeroRandom) {
         message.innerHTML = `El número es mayor`;
     } else {
-        message('message').innerHTML = `El número es menor`;
-    }
+        message.innerHTML = `El número es menor`;
+    };
 
-    if (numeroIntentos == 3) {
-        message.innerHTML = `¡Has perdido! El número era ${numeroRandom}`;
+    if (numeroIntentos == 3 && numero != numeroRandom) {
+        message.innerHTML = `¡Lo siento! Has perdido, el número era ${numeroRandom}`;
         document.getElementById('numero').disabled = true;
         document.getElementById('again').disabled = false;
         document.getElementById('check').disabled = true;
     }
-
 }
 
 function reiniciar() {
@@ -37,6 +39,6 @@ function reiniciar() {
     numeroIntentos = 0;
     message.innerHTML = '';
     document.getElementById('numero').disabled = false;
-    document.getElementById('check').disabled = false;
     document.getElementById('again').disabled = true;
+    document.getElementById('check').disabled = false;
 }
