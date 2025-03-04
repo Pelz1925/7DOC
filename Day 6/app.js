@@ -23,7 +23,6 @@ function addlacteos() {
         lacteosList.appendChild(lacteosData);
         document.getElementById('lacteos').value = '';
         listLacteos.push(lacteos);
-        console.log(listLacteos);
     };
 }
 
