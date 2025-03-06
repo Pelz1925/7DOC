@@ -90,3 +90,17 @@ a:link {
     text-decoration: none;
     color: white;
 }
+
+.boton-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
